@@ -25,8 +25,8 @@
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
     "prettier": "^2.7.1",
-    "@agoric/solo": "beta",
-    "@agoric/cosmic-swingset": "beta"
+    "@agoric/solo": "./",
+    "@agoric/cosmic-swingset": "./"
   },
   "scripts": {
     "preinstall": "node -e \"process.env.AGORIC_INSTALL && process.exit(0); console.warn('please use: agoric install . For details, see https://agoric.com/documentation/'); process.exit(1)\"",
@@ -37,7 +37,7 @@
     "build": "yarn workspaces run build"
   },
   "dependencies": {
-    "agoric": "beta"
+    "agoric": "./"
   },
   "ava": {
     "files": [

@@ -44,8 +44,8 @@
     "watcherGlob": "**/*.html"
   },
   "dependencies": {
-    "@agoric/notifier": "beta",
-    "@agoric/wallet-connection": "beta",
+    "@agoric/notifier": "./",
+    "@agoric/wallet-connection": "./",
     "@endo/captp": "^2.0.3",
     "@endo/marshal": "^0.6.9",
     "lit": "^2.0.2",
